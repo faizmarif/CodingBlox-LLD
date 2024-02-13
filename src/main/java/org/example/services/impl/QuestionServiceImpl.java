@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class QuestionServiceImpl implements QuestionService {
-    private Repository repository;
+    private final Repository repository;
 
     public QuestionServiceImpl() {
         this.repository = Repository.getInstance();

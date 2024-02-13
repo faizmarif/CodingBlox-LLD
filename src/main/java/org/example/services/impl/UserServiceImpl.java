@@ -6,7 +6,6 @@ import org.example.models.User;
 import org.example.services.UserService;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class UserServiceImpl implements UserService {
     private final Repository repository;

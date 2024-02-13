@@ -11,8 +11,8 @@ import org.example.services.QuestionService;
 import java.util.List;
 
 public class ContestServiceImpl implements ContestService {
-    private Repository repository;
-    private QuestionService questionService;
+    private final Repository repository;
+    private final QuestionService questionService;
 
     public ContestServiceImpl() {
         this.repository = Repository.getInstance();
